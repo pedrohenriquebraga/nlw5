@@ -137,7 +137,7 @@ export function PlantSelect() {
           showsVerticalScrollIndicator={false}
           numColumns={2}
           contentContainerStyle={styles.contentContainerStyle}
-          onEndReachedThreshold={0.1}
+          onEndReachedThreshold={0.4}
           onEndReached={({ distanceFromEnd }) =>
             handleFetchMore(distanceFromEnd)
           }
